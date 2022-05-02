@@ -1,0 +1,45 @@
+@keyframes tecla1--brilha{
+    50%{ background-color:#E26B6B;}
+}
+
+@keyframes tecla2--brilha{
+     50%{ background-color:#F0F365}
+}
+
+
+@keyframes tecla3--brilha {
+     50%{ background-color: #78E276;}
+}
+
+@keyframes tecla4--brilha {
+     50%{ background-color: #6F84F0;}
+}
+
+
+#brilhaVermelho {
+    animation-name: tecla1--brilha;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+#brilhaAmarelo{
+    animation-name: tecla2--brilha;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+#brilhaVerde{
+    animation-name: tecla3--brilha;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
+#brilhaAzul {
+     animation-name: tecla4--brilha;
+     animation-duration: 1s;
+     animation-iteration-count: 1;
+
+}

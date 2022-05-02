@@ -1,0 +1,81 @@
+:root {
+    --color-background: #BF90D4;
+    --color-tecla: #FFFBFB;
+    --color-tecla-menor: #0F0E0E;
+    --color-tabela-abaixo: #7832AF;}
+
+
+
+body {
+    background-color: var(--color-background);
+    text-align: -webkit-center;
+}
+
+#main{    
+    margin-top: 100px;
+}
+
+.cabecalho{
+    margin-bottom: 50px;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+}
+
+.tecla1, .tecla2, .tecla3, .tecla4{
+    width: 97px;
+    height: 196px;
+    background-color: var(--color-tecla);
+    border: outset;
+    margin: 5px;  
+    cursor: pointer;
+
+}
+
+.container_teclado{
+    display:inline-flex;
+   margin-top: -131px;
+
+}
+
+#box_resultados{
+    background-color: var(--color-tabela-abaixo);
+    width: 357px;
+    height: 103px;
+    margin-top: 40px;;
+}
+
+.teclaPreta1, .teclaPreta2, .teclaPreta3 {
+    width: 43px;
+    height: 126px;
+    background-color: var(--color-tecla-menor);
+    margin: 0px 35px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-family: inter, sans-serif;
+}
+
+.teclas_pretas{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.tecla1:hover, .tecla2:hover, .tecla3:hover, .tecla4:hover {
+    border: 1px solid black;
+}
+
+.teclaPreta1:hover, .teclaPreta2:hover, .teclaPreta3:hover {
+    border: 1px solid white;
+}
+
+h2{
+    font-family: 'inter',sans-serif;
+    color: white;
+    padding-top: 30px;
+}
+
+.reset {
+    display: none;
+}
